@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestPack.TestNGFB2">
+        <methods>
+          <include name="openHomePage"/>
+          <include name="openFBPage"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openLoginPage"/>
+          <include name="LogoutFromApplication"/>
+        </methods>
+      </class> <!-- TestPack.TestNGFB2 -->
+      <class name="TestPack.verifyRoomsPage">
+        <methods>
+          <include name="verifyContactToMeHelpCenterButton"/>
+          <include name="verifyReturnToMessengerButton"/>
+          <include name="logoutFromApplication"/>
+          <include name="openRoomPage"/>
+          <include name="closeBrowser"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestPack.verifyRoomsPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
